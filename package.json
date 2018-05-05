@@ -1,7 +1,7 @@
 {
-  "name": "animation",
+  "name": "hikinganimation",
   "sideEffects": false,
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "",
   "private": true,
   "scripts": {
@@ -23,26 +23,34 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^0.28.11",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
     "html-webpack-plugin": "^3.2.0",
-    "lint-staged": "^7.0.5",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
     "mini-css-extract-plugin": "^0.4.0",
-    "optimize-css-assets-webpack-plugin": "^4.0.1",
-    "style-loader": "^0.21.0",
-    "uglifyjs-webpack-plugin": "^1.2.5",
-    "webpack": "^4.7.0",
-    "webpack-cli": "^2.1.2",
-    "webpack-dev-server": "^3.1.4",
-    "webpack-merge": "^4.1.2"
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "prettier": "^1.14.2",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.12.1"
+    "@turf/turf": "^5.1.6",
+    "bezier-easing": "^2.1.0",
+    "csv-parse": "^2.5.0",
+    "geojson-dissolve": "^3.1.0",
+    "luxon": "^1.3.3",
+    "ol": "^5.1.3"
   }
 }
