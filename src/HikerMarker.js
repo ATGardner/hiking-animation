@@ -60,7 +60,6 @@ export default class HikerMarker {
       interval.contains(projectedTime),
     );
     if (day) {
-      console.log('day found', projectedTime);
       const { section, sectionLength, interval } = day;
       const diff = projectedTime.diff(interval.start);
       const timeFraction = diff.as('seconds') / interval.length('seconds');
@@ -70,10 +69,7 @@ export default class HikerMarker {
       const point = new Point(currentPoint.geometry.coordinates);
       this.marker = new Feature(point);
     } else if (this.end < projectedTime) {
-      console.log('after end', projectedTime);
       delete this.marker;
-    } else {
-      console.log('day not found', projectedTime);
     }
 
     return this.marker;
