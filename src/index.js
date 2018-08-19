@@ -63,7 +63,7 @@ async function animate(map, hikers) {
 
 (async function() {
   const { map, lineString } = await createMap('map', './assets/Tracks.kml');
-  const amtrak = await getCsvData('./assets/me2.csv');
+  const amtrak = await getCsvData('./assets/amtrak.csv');
   // const borealis = await getCsvData('./assets/borealis.csv');
   const hikers = [
     new HikerMarker(lineString, amtrak, '#00ff004d'),
