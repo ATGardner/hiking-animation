@@ -1,11 +1,11 @@
-import Feature from 'ol/feature';
+import Feature from 'ol/Feature';
 import * as utils from './utils';
-import Point from 'ol/geom/point';
+import Point from 'ol/geom/Point';
 import BezierEasing from 'bezier-easing';
-import Style from 'ol/style/style';
-import Fill from 'ol/style/fill';
-import Circle from 'ol/style/circle';
-import Stroke from 'ol/style/stroke';
+import Style from 'ol/style/Style';
+import Fill from 'ol/style/Fill';
+import Circle from 'ol/style/Circle';
+import Stroke from 'ol/style/Stroke';
 import { Duration, Interval } from 'luxon';
 
 const easeInOutCubic = BezierEasing(0.445, 0.05, 0.55, 0.95);

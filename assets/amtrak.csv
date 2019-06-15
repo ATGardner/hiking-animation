@@ -1,4 +1,6 @@
 startDate,startLon,startLat,endLon,endLat,endDate
+#if startDate has no hour, default is 08:00am
+#if endDate is missing, it uses starDate + 10 hours
 2014-04-12,-116.4669880,32.5897201,-116.51789,32.68435 #lake morena
 2014-04-13,-116.51789,32.68435,-116.4197060,32.8129934
 2014-04-14,-116.4197060,32.8129934,-116.4200811,32.8777339 #mt laguna

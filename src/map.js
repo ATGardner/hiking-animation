@@ -1,10 +1,10 @@
 import KML from 'ol/format/kml';
 import TileLayer from 'ol/layer/tile';
-import VectorLayer from 'ol/layer/vector';
+import VectorLayer from 'ol/layer/Vector';
 import Map from 'ol/map';
 import OSMSource from 'ol/source/osm';
-import VectorSource from 'ol/source/vector';
-import View from 'ol/view';
+import VectorSource from 'ol/source/Vector';
+import View from 'ol/View';
 import * as utils from './utils';
 
 export function createMap(id, url) {

@@ -1,6 +1,6 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
-    <JSCodeStyleSettings>
+    <JSCodeStyleSettings version="0">
       <option name="IMPORT_SORT_MODULE_NAME" value="true" />
     </JSCodeStyleSettings>
     <codeStyleSettings language="JavaScript">
