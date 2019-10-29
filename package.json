@@ -55,7 +55,7 @@
     "@babel/runtime": "^7.5.5",
     "@turf/turf": "^5.1.6",
     "bezier-easing": "^2.1.0",
-    "csv-parse": "^4.4.5",
+    "csv-parse": "^4.4.6",
     "geojson-dissolve": "^3.1.0",
     "luxon": "^1.17.2",
     "ol": "^5.3.3"
